@@ -1,0 +1,61 @@
+body {
+    background-color: rgba(32, 44, 54, 1);
+}
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+.cardLists {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 150px 0px 40px 0px;
+}
+.card {
+    background-color: rgba(43, 56, 68, 1);
+    width: 267px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: white;
+    padding-bottom: 15px;
+}
+.cardPadding {
+    margin-left: 15px;
+}
+.Image {
+    width: 267px;
+    height: 160px;
+    border-radius: 5px 5px 0 0;
+}
+h2 {
+    color: #fff;
+    font-family: 'Nunito Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 26px;
+    margin-bottom: 16px;
+    margin-top: 24px;
+}
+p {
+    margin-bottom: 8px;
+    color: #fff;
+    font-family: 'Nunito Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 114.286% */
+}
+
+@media only screen and (max-width: 650px) {
+    .cardLists {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 250px 10px 40px 10px;
+    }
+}
